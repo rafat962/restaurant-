@@ -1,0 +1,13 @@
+<div>
+  <button (click)="onNewRecipe()">New Recipe</button>
+</div>
+<hr>
+<app-recipe-item *ngFor="let x of recipes;let i=  index" [recipe]="x" [index]="i" ></app-recipe-item>
+
+
+
+
+
+
+
+

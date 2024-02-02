@@ -1,0 +1,38 @@
+button{
+  margin-top: 15px;
+}
+
+.content{
+  width: 450px;
+  height: 85px;
+  border: 1px rgba(0, 0, 0, 0.459) solid;
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.content:hover{
+  background-color: rgb(241, 237, 231);
+}
+.content  img{
+  max-height: 85px;
+  max-width: 100px;
+}
+.content a{
+  text-decoration: none;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.content a h4{
+  text-decoration: none;
+  color: black;
+}
+.content a p{
+  text-decoration: none;
+  color: black;
+}
+
+.active{
+  background-color:rgb(190, 199, 207);
+}
+

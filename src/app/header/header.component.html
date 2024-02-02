@@ -1,0 +1,23 @@
+
+
+<nav>
+  <div class="first">
+    <h1>Recipe Book</h1>
+    <!-- <a href="#" (click)="showrecipes()">Recipes</a>
+    <a href="#" (click)="showshopping()"> Shopping list </a> -->
+    <a routerLinkActive="active"  routerLink="/recipes">Recipes</a>
+    <a routerLinkActive="active"  routerLink="/shopping-list"> Shopping list </a>
+  </div>
+  <div class="mange">
+    <a href="#" class="manage-word">Manage</a>
+    <ul>
+      <li><a style="cursor: pointer;" (click)="onSaveData()">Save Data</a></li>
+      <li><a style="cursor: pointer;"  (click)="onfetchdata()" >Fetch Data</a></li>
+    </ul>
+  </div>
+
+</nav>
+
+
+
+
